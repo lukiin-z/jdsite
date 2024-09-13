@@ -1,0 +1,10 @@
+{
+    "liveServer.settings": {
+        "mount": [
+            {
+                "root": "jdsite/path/to/development",
+                "index": "development.html"
+            }
+        ]
+    }
+}

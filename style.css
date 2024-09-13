@@ -1,0 +1,82 @@
+/* Estilos para todo o site */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #0d1117; /* Cor de fundo escura para parecer mais profissional */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; /* Added box-sizing property */
+}
+
+.login-container {
+    background-color: #161b22; /* Fundo escuro no container */
+    border-radius: 10px;
+    padding: 30px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+h2 {
+    color: #ffd700; /* Amarelo */
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: #c9d1d9; /* Texto claro */
+}
+
+input {
+    width: 100%; /* Added unit (%) explicitly */
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #0d1117; /* Fundo do input escuro */
+    border: 1px solid #30363d; /* Borda mais clara */
+    border-radius: 5px;
+    color: #c9d1d9; /* Texto do input claro */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #008000; /* Verde para o botão */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #006400; /* Cor mais escura ao passar o mouse */
+}
+
+/* Estilo do botão "Criar Conta" */
+.register {
+    margin-top: 20px;
+}
+
+.register p {
+    margin: 0;
+    color: #c9d1d9;
+}
+
+.register-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ffd700; /* Amarelo no botão de criar conta */
+    color: #008000; /* Texto verde */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.register-button:hover {
+    background-color: #e5c200;
+}
